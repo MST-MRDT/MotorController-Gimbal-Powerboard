@@ -5744,6 +5744,9 @@ by exp-lbrs.ulp</description>
 <pinref part="C37" gate="G$1" pin="+"/>
 <wire x1="-22.86" y1="142.24" x2="-12.7" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="142.24" x2="-12.7" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
+<wire x1="-12.7" y1="142.24" x2="-12.7" y2="144.78" width="0.1524" layer="91"/>
+<junction x="-12.7" y="142.24"/>
 </segment>
 <segment>
 <wire x1="322.58" y1="-104.14" x2="314.96" y2="-104.14" width="0.1524" layer="91"/>
@@ -6512,13 +6515,6 @@ by exp-lbrs.ulp</description>
 <wire x1="-22.86" y1="137.16" x2="-22.86" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="+"/>
 <label x="-22.86" y="147.32" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<wire x1="-12.7" y1="139.7" x2="-12.7" y2="144.78" width="0.1524" layer="91"/>
-<junction x="-12.7" y="144.78"/>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="PWM_IN_NO_FILTER" class="0">
