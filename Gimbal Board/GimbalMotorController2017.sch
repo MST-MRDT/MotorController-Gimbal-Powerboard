@@ -4670,9 +4670,6 @@ by exp-lbrs.ulp</description>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SH1" library="BLDC_Motor_Controller_2016_Rev1" deviceset="SHORT-H" device="T5"/>
 <part name="SH2" library="BLDC_Motor_Controller_2016_Rev1" deviceset="SHORT-H" device="T5"/>
-<part name="R31" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100"/>
-<part name="C40" library="SparkFun-Passives" deviceset="CAP" device="0805" value=".015u"/>
-<part name="GND34" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Q9" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="AO3404A"/>
 <part name="R51" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1M"/>
 <part name="R50" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="3M"/>
@@ -4931,9 +4928,6 @@ by exp-lbrs.ulp</description>
 <instance part="GND36" gate="1" x="309.88" y="-63.5" rot="R270"/>
 <instance part="SH1" gate="G$1" x="101.6" y="-66.04"/>
 <instance part="SH2" gate="G$1" x="101.6" y="25.4"/>
-<instance part="R31" gate="G$1" x="309.88" y="-73.66"/>
-<instance part="C40" gate="G$1" x="299.72" y="-78.74"/>
-<instance part="GND34" gate="1" x="299.72" y="-83.82"/>
 <instance part="Q9" gate="G$1" x="-33.02" y="-121.92"/>
 <instance part="R51" gate="G$1" x="-45.72" y="-129.54" rot="R270"/>
 <instance part="R50" gate="G$1" x="-50.8" y="-121.92"/>
@@ -5255,10 +5249,6 @@ by exp-lbrs.ulp</description>
 <wire x1="104.14" y1="25.4" x2="104.14" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="-12.7" x2="129.54" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="129.54" y="-12.7"/>
-</segment>
-<segment>
-<pinref part="C40" gate="G$1" pin="2"/>
-<pinref part="GND34" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R51" gate="G$1" pin="2"/>
@@ -6398,14 +6388,6 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="PWM_IN" class="0">
 <segment>
-<pinref part="C40" gate="G$1" pin="1"/>
-<wire x1="299.72" y1="-73.66" x2="304.8" y2="-73.66" width="0.1524" layer="91"/>
-<pinref part="R31" gate="G$1" pin="1"/>
-<wire x1="299.72" y1="-73.66" x2="297.18" y2="-73.66" width="0.1524" layer="91"/>
-<junction x="299.72" y="-73.66"/>
-<label x="297.18" y="-73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="PA2"/>
 <wire x1="269.24" y1="71.12" x2="261.62" y2="71.12" width="0.1524" layer="91"/>
 <label x="261.62" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -6501,13 +6483,6 @@ by exp-lbrs.ulp</description>
 <pinref part="U2" gate="G$1" pin="T1IN"/>
 <wire x1="228.6" y1="-73.66" x2="220.98" y2="-73.66" width="0.1524" layer="91"/>
 <label x="220.98" y="-73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<pinref part="R31" gate="G$1" pin="2"/>
-<pinref part="U$4" gate="G$1" pin="1"/>
-<wire x1="317.5" y1="-73.66" x2="314.96" y2="-73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
