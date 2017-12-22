@@ -4610,8 +4610,8 @@ by exp-lbrs.ulp</description>
 <part name="C22" library="SparkFun-Passives" deviceset="CAP" device="1206" value="2.2u"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="184k"/>
-<part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="50k"/>
+<part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="13.2k"/>
+<part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.99k"/>
 <part name="C23" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1u"/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C24" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1000p"/>
@@ -4620,8 +4620,8 @@ by exp-lbrs.ulp</description>
 <part name="C25" library="SparkFun-Passives" deviceset="CAP" device="1206" value="2.2u"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R24" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="184k"/>
-<part name="R25" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="50k"/>
+<part name="R24" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="13.2k"/>
+<part name="R25" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4.99k"/>
 <part name="C26" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1u"/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C29" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1u"/>
@@ -4774,8 +4774,10 @@ by exp-lbrs.ulp</description>
 <wire x1="284.48" y1="18.542" x2="287.782" y2="18.542" width="0.1524" layer="97"/>
 <wire x1="287.782" y1="18.542" x2="287.782" y2="72.644" width="0.1524" layer="97"/>
 <wire x1="287.782" y1="72.644" x2="284.48" y2="72.644" width="0.1524" layer="97"/>
-<text x="271.78" y="78.74" size="1.778" layer="97">Header Pins for LAUNCHXL</text>
-<wire x1="203.2" y1="-266.7" x2="203.2" y2="101.6" width="0.1524" layer="97"/>
+<text x="266.7" y="78.74" size="1.778" layer="97">C2000 LAUNCHXL (Not Tiva 123)</text>
+<wire x1="203.2" y1="-7.62" x2="373.38" y2="-7.62" width="0.1524" layer="97"/>
+<wire x1="203.2" y1="-266.7" x2="203.2" y2="-7.62" width="0.1524" layer="97"/>
+<wire x1="203.2" y1="-7.62" x2="203.2" y2="101.6" width="0.1524" layer="97"/>
 <wire x1="203.2" y1="101.6" x2="101.6" y2="101.6" width="0.1524" layer="97"/>
 <wire x1="101.6" y1="101.6" x2="101.6" y2="-86.36" width="0.1524" layer="97"/>
 <wire x1="101.6" y1="-86.36" x2="101.6" y2="-266.7" width="0.1524" layer="97"/>
@@ -4796,7 +4798,8 @@ by exp-lbrs.ulp</description>
 <text x="104.14" y="93.98" size="5.08" layer="97">Phase A</text>
 <text x="106.68" y="-35.56" size="5.08" layer="97">Phase B</text>
 <text x="104.14" y="-175.26" size="5.08" layer="97">Phase C</text>
-<text x="205.74" y="93.98" size="5.08" layer="97">External Connections</text>
+<text x="205.74" y="93.98" size="5.08" layer="97">Microcontroller</text>
+<text x="205.74" y="-15.24" size="5.08" layer="97">External Connections</text>
 <text x="-111.76" y="-93.98" size="5.08" layer="97">Indicators</text>
 <text x="53.34" y="68.58" size="5.08" layer="97">VCC = 3.3V</text>
 <wire x1="101.6" y1="-25.4" x2="203.2" y2="-25.4" width="0.1524" layer="107"/>
