@@ -6496,12 +6496,12 @@ by exp-lbrs.ulp</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="337.82" y1="76.2" x2="327.66" y2="76.2" width="0.1524" layer="91"/>
-<label x="327.66" y="76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="327.66" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PF4"/>
 <wire x1="264.16" y1="25.4" x2="271.78" y2="25.4" width="0.1524" layer="91"/>
-<label x="271.78" y="25.4" size="1.778" layer="95" xref="yes"/>
+<label x="271.78" y="25.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
