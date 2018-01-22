@@ -208,6 +208,8 @@ Shaun McManus</text>
 <hole x="12.192" y="-11.938" drill="2.032"/>
 <hole x="98.552" y="-11.938" drill="2.032"/>
 <dimension x1="12.192" y1="-11.938" x2="12.192" y2="-24.638" x3="98.552" y3="-18.288" textsize="5.08" layer="27" dtype="vertical" unit="inch"/>
+<text x="67.564" y="3.556" size="2.54" layer="21" rot="R180">&lt;------------------------------</text>
+<text x="67.564" y="52.578" size="2.54" layer="21" rot="R180">&lt;------------------------------</text>
 </plain>
 <libraries>
 <library name="SparkFun-Passives">
