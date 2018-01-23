@@ -36,7 +36,7 @@
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -165,15 +165,15 @@
 </layers>
 <board>
 <plain>
-<wire x1="12.2617875" y1="86.165259375" x2="12.253625" y2="-22.149903125" width="0.254" layer="20"/>
-<wire x1="12.253625" y1="-22.149903125" x2="14.74911875" y2="-24.638" width="0.254" layer="20" curve="90.004305"/>
-<wire x1="14.74911875" y1="-24.638" x2="96.006378125" y2="-24.638" width="0.254" layer="20"/>
-<wire x1="96.006378125" y1="-24.638" x2="98.474209375" y2="-22.1558" width="0.254" layer="20" curve="90.333596"/>
-<wire x1="98.474209375" y1="-22.1558" x2="98.48225625" y2="86.177540625" width="0.254" layer="20"/>
-<wire x1="98.48225625" y1="86.177540625" x2="96.017625" y2="88.636" width="0.254" layer="20" curve="89.854269"/>
-<wire x1="96.017625" y1="88.636" x2="14.72633125" y2="88.636" width="0.254" layer="20"/>
-<wire x1="14.72633125" y1="88.636" x2="12.2617875" y2="86.165259375" width="0.254" layer="20" curve="90.14392"/>
-<text x="77.47" y="75.692" size="2.54" layer="21" font="vector" rot="SR0">A</text>
+<wire x1="12.2428" y1="86.165259375" x2="12.2428" y2="-25.171721875" width="0.254" layer="20"/>
+<wire x1="12.2428" y1="-25.171721875" x2="14.757078125" y2="-27.686" width="0.254" layer="20" curve="90"/>
+<wire x1="14.757078125" y1="-27.686" x2="96.005678125" y2="-27.686" width="0.254" layer="20"/>
+<wire x1="96.005678125" y1="-27.686" x2="98.4758" y2="-25.215878125" width="0.254" layer="20" curve="90"/>
+<wire x1="98.4758" y1="-25.215878125" x2="98.4758" y2="86.177540625" width="0.254" layer="20"/>
+<wire x1="98.4758" y1="86.177540625" x2="96.017625" y2="88.646" width="0.254" layer="20" curve="89.854269"/>
+<wire x1="96.017625" y1="88.646" x2="14.72633125" y2="88.646" width="0.254" layer="20"/>
+<wire x1="14.72633125" y1="88.646" x2="12.2428" y2="86.165259375" width="0.254" layer="20" curve="90.14392"/>
+<text x="72.898" y="74.422" size="2.54" layer="21" font="vector" rot="SR0">A</text>
 <text x="76.962" y="46.736" size="2.54" layer="21" font="vector" rot="SR0">B</text>
 <text x="76.454" y="17.018" size="2.54" layer="21" font="vector" rot="SR0">C</text>
 <text x="80.518" y="10.922" size="5.08" layer="21" font="vector" rot="R180">+</text>
@@ -191,7 +191,7 @@
 <text x="66.294" y="62.23" size="1.27" layer="21" font="vector">SH_A</text>
 <text x="72.644" y="33.782" size="1.27" layer="21" font="vector">SH_B</text>
 <text x="73.152" y="26.924" size="1.27" layer="21" font="vector">SH_C</text>
-<text x="96.52" y="-11.684" size="1.778" layer="21" font="vector" rot="R180">Gimbal Powerboard 2018 Rev 1
+<text x="96.266" y="-14.224" size="1.778" layer="21" font="vector" rot="R180">Gimbal Powerboard 2018 Rev 1
 Mars Rover Design Team
 University of Missouri Science and Technology
 Evan Hite
@@ -205,11 +205,18 @@ Shaun McManus</text>
 <text x="66.548" y="39.37" size="1.27" layer="21" font="vector">GL_B</text>
 <text x="62.484" y="51.562" size="1.27" layer="21" font="vector">GH_A</text>
 <text x="67.056" y="57.912" size="1.27" layer="21" font="vector">GL_A</text>
-<hole x="12.192" y="-11.938" drill="2.032"/>
-<hole x="98.552" y="-11.938" drill="2.032"/>
-<dimension x1="12.192" y1="-11.938" x2="12.192" y2="-24.638" x3="98.552" y3="-18.288" textsize="5.08" layer="27" dtype="vertical" unit="inch"/>
+<hole x="12.2428" y="-14.986" drill="2.032"/>
+<hole x="98.4758" y="-14.986" drill="2.032"/>
 <text x="67.564" y="3.556" size="2.54" layer="21" rot="R180">&lt;------------------------------</text>
 <text x="67.564" y="52.578" size="2.54" layer="21" rot="R180">&lt;------------------------------</text>
+<text x="53.594" y="67.31" size="1.778" layer="21" font="vector">L1</text>
+<text x="49.276" y="16.256" size="1.778" layer="21" font="vector">U3</text>
+<text x="57.912" y="79.248" size="1.778" layer="21" font="vector">Q1</text>
+<text x="90.424" y="81.534" size="1.778" layer="21" font="vector">Q2</text>
+<text x="94.742" y="60.198" size="1.778" layer="21" font="vector">Q3</text>
+<text x="94.742" y="52.07" size="1.778" layer="21" font="vector">Q4</text>
+<text x="94.742" y="30.226" size="1.778" layer="21" font="vector">Q5</text>
+<text x="94.742" y="24.638" size="1.778" layer="21" font="vector">Q6</text>
 </plain>
 <libraries>
 <library name="SparkFun-Passives">
@@ -6795,8 +6802,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="32.004" y="42.164" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="C10" library="SparkFun-Passives" package="1206" value="4.7u" x="53.213" y="15.113" smashed="yes" rot="R180">
-<attribute name="NAME" x="49.784" y="16.129" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="52.324" y="16.637" size="0.4064" layer="27" font="vector" rot="R180"/>
+<attribute name="NAME" x="56.007" y="14.478" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="C11" library="SparkFun-Passives" package="0805" value="0.1u" x="70.1675" y="23.5585" smashed="yes">
 <attribute name="NAME" x="71.0565" y="25.146" size="0.8128" layer="25" font="vector" rot="R180"/>
@@ -6835,7 +6841,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="28.60675" y="57.912" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C2" library="SparkFun-Passives" package="0805" value="120p" x="36.6395" y="38.735" smashed="yes">
-<attribute name="NAME" x="35.1155" y="39.5605" size="0.8128" layer="25" font="vector"/>
+<attribute name="NAME" x="35.8775" y="39.5605" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="37.1475" y="39.624" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="C20" library="SparkFun-Passives" package="0805" value="0.1u" x="56.8325" y="44.1325" smashed="yes">
@@ -6851,7 +6857,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="28.60675" y="62.23" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C23" library="SparkFun-Passives" package="0805" value="0.1u" x="52.2605" y="44.1325" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.165" y="45.1485" size="0.6096" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="51.3715" y="42.799" size="0.6096" layer="25" font="vector"/>
 <attribute name="VALUE" x="52.2605" y="45.2755" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C24" library="SparkFun-Passives" package="0805" value="1000p" x="71.4375" y="45.18025" smashed="yes" rot="R180">
@@ -6872,14 +6878,13 @@ design rules under a new name.</description>
 </element>
 <element name="C3" library="SparkFun-Passives" package="1206" value="2.2u" x="35.78225" y="28.956" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.306" y="31.59125" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="34.25825" y="30.353" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C30" library="SparkFun-Passives" package="0805" value="0.01u" x="32.86125" y="66.6115" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.7505" y="67.84975" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="35.4965" y="66.77025" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C31" library="SparkFun-Passives" package="0805" value="0.1u" x="61.6585" y="44.1325" smashed="yes">
-<attribute name="NAME" x="60.198" y="43.3705" size="0.6096" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="64.8335" y="44.45" size="0.6096" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="60.6425" y="45.0215" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="C32" library="SparkFun-Passives" package="0805" value="1u" x="39.65575" y="64.77" smashed="yes" rot="R270">
@@ -6900,7 +6905,6 @@ design rules under a new name.</description>
 </element>
 <element name="C4" library="SparkFun-Passives" package="0805" value=".022u" x="35.56" y="25.019" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.925" y="22.6695" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="36.703" y="23.749" size="0.4064" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="C5" library="SparkFun-Passives" package="0805" value="1u" x="32.766" y="21.844" smashed="yes" rot="R270">
 <attribute name="NAME" x="30.734" y="22.4155" size="0.8128" layer="25" font="vector"/>
@@ -6911,7 +6915,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="43.3705" y="45.2755" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C7" library="SparkFun-Passives" package="0805" value="2200p" x="36.5125" y="43.6245" smashed="yes" rot="R180">
-<attribute name="NAME" x="37.0205" y="45.339" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="37.2745" y="45.339" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="37.0205" y="44.7675" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C8" library="SparkFun-Passives" package="0805" value="1u" x="44.5135" y="17.8435" smashed="yes" rot="R180">
@@ -6919,12 +6923,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="46.0375" y="18.0975" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="C9" library="SparkFun-Passives" package="0805" value="0.1u" x="53.6575" y="12.5095" smashed="yes" rot="R180">
-<attribute name="NAME" x="51.308" y="13.2715" size="0.8128" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="53.4035" y="13.6525" size="0.4064" layer="27" font="vector" rot="R180"/>
+<attribute name="NAME" x="55.3085" y="12.192" size="0.8128" layer="25" font="vector"/>
 </element>
 <element name="D1" library="SparkFun-DiscreteSemi" package="SMB-DIODE" value="DIODE-ZENERSMB" x="47.84725" y="63.27775" smashed="yes" rot="R180">
 <attribute name="NAME" x="47.02175" y="65.62725" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="52.29225" y="60.35675" size="0.8128" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="52.80025" y="60.61075" size="0.8128" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="D6" library="SparkFun-LED" package="LED-1206" value="" x="22.38375" y="56.1975" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.9555" y="56.80075" size="0.8128" layer="25" font="vector" rot="R270"/>
@@ -6969,11 +6972,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="71.34225" y="60.67425" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R14" library="SparkFun-Passives" package="0805" value="187k" x="56.8325" y="39.0525" smashed="yes" rot="R180">
-<attribute name="NAME" x="54.737" y="39.8145" size="0.6096" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="55.9435" y="40.005" size="0.6096" layer="25" font="vector"/>
 <attribute name="VALUE" x="57.0865" y="40.1955" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R15" library="SparkFun-Passives" package="0805" value="68.1k" x="56.8325" y="41.5925" smashed="yes">
-<attribute name="NAME" x="55.626" y="41.3385" size="0.6096" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="57.7215" y="42.926" size="0.6096" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="55.8165" y="42.2275" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="R16" library="SparkFun-Passives" package="0805" value="10" x="69.69125" y="28.194" smashed="yes" rot="R180">
@@ -6989,7 +6992,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="50.9905" y="39.9415" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="R2" library="SparkFun-Passives" package="0805" value="16.2k" x="36.6395" y="41.275" smashed="yes" rot="R180">
-<attribute name="NAME" x="34.4805" y="41.9735" size="0.8128" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="36.0045" y="42.1005" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="38.1" y="42.2275" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R20" library="SparkFun-Passives" package="0805" value="68.1k" x="52.2605" y="41.5925" smashed="yes" rot="R180">
@@ -7001,7 +7004,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="69.31025" y="18.669" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R22" library="SparkFun-Passives" package="0805" value="10" x="72.23125" y="9.525" smashed="yes" rot="R180">
-<attribute name="NAME" x="70.2945" y="10.50925" size="0.8128" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="73.56475" y="9.0805" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="71.72325" y="8.89" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R23" library="SparkFun-Passives" package="0805" value="3.3" x="32.98825" y="69.469" smashed="yes" rot="R90">
@@ -7017,16 +7020,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="47.6885" y="42.7355" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R26" library="SparkFun-Passives" package="0805" value="187k" x="61.6585" y="39.0525" smashed="yes" rot="R180">
-<attribute name="NAME" x="59.563" y="39.8145" size="0.6096" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="61.0235" y="37.719" size="0.6096" layer="25" font="vector"/>
 <attribute name="VALUE" x="62.1665" y="40.1955" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R27" library="SparkFun-Passives" package="0805" value="68.1k" x="61.6585" y="41.5925" smashed="yes">
-<attribute name="NAME" x="59.69" y="41.7195" size="0.6096" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="60.6425" y="42.418" size="0.6096" layer="25" font="vector"/>
 <attribute name="VALUE" x="60.6425" y="42.4815" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="R28" library="SparkFun-Passives" package="0805" value="1k" x="37.68725" y="23.01875" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.67125" y="24.54275" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="37.56025" y="23.27275" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="R29" library="SparkFun-Passives" package="0805" value="1k" x="38.989" y="29.337" smashed="yes" rot="R180">
 <attribute name="NAME" x="40.3225" y="30.861" size="0.8128" layer="25" font="vector" rot="R270"/>
@@ -7053,7 +7055,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="39.78275" y="70.104" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R4" library="SparkFun-Passives" package="0805" value="10k" x="36.6395" y="36.195" smashed="yes">
-<attribute name="NAME" x="35.3695" y="35.6235" size="0.8128" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="37.5285" y="37.9095" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="35.3695" y="37.084" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="R5" library="SparkFun-Passives" package="0805" value="10k" x="32.385" y="34.925" smashed="yes" rot="R180">
@@ -7061,7 +7063,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="32.131" y="36.068" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R6" library="SparkFun-Passives" package="0805" value="10k" x="36.6395" y="33.655" smashed="yes" rot="R180">
-<attribute name="NAME" x="34.4805" y="34.3535" size="0.8128" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="36.0045" y="34.4805" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="36.3855" y="34.798" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R7" library="SparkFun-Passives" package="0805" value="10k" x="32.385" y="32.639" smashed="yes" rot="R180">
@@ -7077,7 +7079,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="44.5135" y="40.7035" size="0.4064" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="U$1" library="MRDT-ICs" package="TFSOP-56" value="DRV8301" x="50.8" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="44.704" y="33.02" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="44.45" y="29.464" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="U$2" library="MRDT-2015-General" package="TIVA-C" value="TIVA-C" x="93.98" y="52.07" rot="R180"/>
@@ -7101,8 +7102,8 @@ design rules under a new name.</description>
 </element>
 <element name="U$9" library="MRDT-Hardware" package="MRDT_LOGO" value="" x="16.3576" y="-22.4282"/>
 <element name="U$4" library="Molex-SL" package="5PIN" value="5PIN" x="26.19375" y="40.132" smashed="yes" rot="R90"/>
-<element name="SH1" library="BLDC_Motor_Controller_2016_Rev1" package="SHORT_TOP-50" value="SHORT-HT5" x="62.57925" y="18.923" smashed="yes" rot="R180">
-<attribute name="BOM" value="no" x="62.57925" y="18.923" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="SH1" library="BLDC_Motor_Controller_2016_Rev1" package="SHORT_TOP-50" value="SHORT-HT5" x="62.68085" y="19.0246" smashed="yes" rot="R180">
+<attribute name="BOM" value="no" x="62.68085" y="19.0246" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="SH2" library="BLDC_Motor_Controller_2016_Rev1" package="SHORT_TOP-50" value="SHORT-HT5" x="62.57925" y="20.193" smashed="yes" rot="R180">
 <attribute name="BOM" value="no" x="62.57925" y="20.193" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7159,11 +7160,9 @@ design rules under a new name.</description>
 </element>
 <element name="C44" library="SparkFun-Passives" package="0805" value="0.1u" x="29.972" y="25.019" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.115" y="27.1145" size="0.8128" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="30.607" y="25.019" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="C45" library="SparkFun-Passives" package="0805" value="0.1u" x="32.766" y="24.892" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.75" y="26.2255" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="34.798" y="24.511" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="C46" library="SparkFun-Passives" package="0805" value="0.1u" x="37.592" y="19.558" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.576" y="20.8915" size="0.8128" layer="25" font="vector"/>
@@ -7171,10 +7170,9 @@ design rules under a new name.</description>
 </element>
 <element name="C47" library="SparkFun-Passives" package="0805" value="0.1u" x="27.686" y="23.0505" smashed="yes">
 <attribute name="NAME" x="26.67" y="23.876" size="0.8128" layer="25" font="vector"/>
-<attribute name="VALUE" x="30.6705" y="23.114" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="C48" library="SparkFun-Passives" package="0805" value="0.1u" x="28.194" y="28.956" smashed="yes" rot="R90">
-<attribute name="NAME" x="30.988" y="30.1625" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="31.242" y="30.1625" size="0.8128" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="29.591" y="27.94" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="U$3" library="MRDT-Connectors" package="TEST_POINT_0.1INDIAM" value="TEST_POINT_0.1INDIAM" x="35.306" y="58.928" smashed="yes"/>
@@ -7271,8 +7269,8 @@ design rules under a new name.</description>
 <polygon width="0.3048" layer="1" thermals="no" rank="3">
 <vertex x="-20.32" y="102.87"/>
 <vertex x="137.16" y="102.87"/>
-<vertex x="137.16" y="-26.416"/>
-<vertex x="-20.32" y="-26.416"/>
+<vertex x="137.16" y="-30.226"/>
+<vertex x="-20.32" y="-30.226"/>
 </polygon>
 <polygon width="0.4064" layer="16" thermals="no" rank="2">
 <vertex x="-29.21" y="98.298"/>
@@ -7299,8 +7297,8 @@ design rules under a new name.</description>
 <polygon width="0.4064" layer="2" thermals="no" rank="2">
 <vertex x="-24.892" y="100.33"/>
 <vertex x="142.24" y="100.33"/>
-<vertex x="141.986" y="-28.448"/>
-<vertex x="-25.146" y="-28.448"/>
+<vertex x="141.986" y="-32.258"/>
+<vertex x="-25.146" y="-32.258"/>
 </polygon>
 <contactref element="SH2" pad="2"/>
 <contactref element="SH1" pad="2"/>
@@ -7344,6 +7342,8 @@ design rules under a new name.</description>
 <via x="48.006" y="-5.334" extent="1-16" drill="0.35"/>
 <via x="53.34" y="-5.334" extent="1-16" drill="0.35"/>
 <via x="58.674" y="-5.334" extent="1-16" drill="0.35"/>
+<via x="74.93" y="55.372" extent="1-16" drill="0.35"/>
+<via x="92.964" y="78.74" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$3">
 <contactref element="R3" pad="1"/>
@@ -7812,8 +7812,8 @@ design rules under a new name.</description>
 <polygon width="0.4064" layer="15" thermals="no" rank="2">
 <vertex x="-32.004" y="104.394"/>
 <vertex x="145.542" y="104.394"/>
-<vertex x="146.558" y="-31.242"/>
-<vertex x="-30.988" y="-31.242"/>
+<vertex x="146.558" y="-34.544"/>
+<vertex x="-30.988" y="-34.544"/>
 </polygon>
 <contactref element="C37" pad="1"/>
 <contactref element="U$3" pad="P$1"/>
@@ -7842,7 +7842,6 @@ design rules under a new name.</description>
 <via x="55.626" y="34.798" extent="1-16" drill="0.35"/>
 <wire x1="55.626" y1="34.798" x2="55.88" y2="34.798" width="0.254" layer="15"/>
 <wire x1="55.88" y1="34.798" x2="56.134" y2="34.544" width="0.254" layer="15"/>
-<wire x1="63.246" y1="40.386" x2="63.754" y2="39.878" width="0.254" layer="15"/>
 <contactref element="Q3" pad="TAB"/>
 <contactref element="Q5" pad="TAB"/>
 <contactref element="Q2" pad="TAB"/>
@@ -8674,8 +8673,10 @@ design rules under a new name.</description>
 <wire x1="54.55" y1="20.15" x2="54.5958" y2="20.1958" width="0.254" layer="1"/>
 <wire x1="54.5958" y1="20.1958" x2="59.182" y2="20.1958" width="0.254" layer="1"/>
 <wire x1="59.182" y1="20.1958" x2="59.27725" y2="20.1958" width="0.254" layer="1"/>
-<wire x1="59.182" y1="20.1958" x2="62.32525" y2="20.1958" width="0.254" layer="1"/>
-<wire x1="62.32525" y1="20.1958" x2="62.42685" y2="20.193" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="20.1958" x2="59.182" y2="20.1958" width="0.254" layer="1"/>
+<wire x1="62.23" y1="20.1958" x2="62.32525" y2="20.1958" width="0.254" layer="1"/>
+<wire x1="62.42685" y1="20.193" x2="62.2328" y2="20.193" width="0.254" layer="1"/>
+<wire x1="62.2328" y1="20.193" x2="62.23" y2="20.1958" width="0.254" layer="1"/>
 </signal>
 <signal name="SP2">
 <contactref element="U$1" pad="30"/>
@@ -8684,8 +8685,9 @@ design rules under a new name.</description>
 <wire x1="56.41553125" y1="19.15" x2="56.63413125" y2="18.9314" width="0.254" layer="1"/>
 <wire x1="56.63413125" y1="18.9314" x2="57.15786875" y2="18.9314" width="0.254" layer="1"/>
 <wire x1="57.15786875" y1="18.9314" x2="57.25106875" y2="19.0246" width="0.254" layer="1"/>
-<wire x1="57.25106875" y1="19.0246" x2="62.32525" y2="19.0246" width="0.254" layer="1"/>
-<wire x1="62.32525" y1="19.0246" x2="62.42685" y2="18.923" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="19.0246" x2="62.32525" y2="19.0246" width="0.254" layer="1"/>
+<wire x1="62.23" y1="19.0246" x2="57.25106875" y2="19.0246" width="0.254" layer="1"/>
+<wire x1="62.52845" y1="19.0246" x2="62.23" y2="19.0246" width="0.254" layer="1"/>
 </signal>
 <signal name="NRE">
 <contactref element="U$2" pad="PD6"/>
