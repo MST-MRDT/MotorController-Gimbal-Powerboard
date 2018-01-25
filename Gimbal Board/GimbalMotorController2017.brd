@@ -183,10 +183,10 @@
 <text x="20.98675" y="84.8995" size="0.8128" layer="21" font="vector" rot="SR0">GND</text>
 <text x="21.24075" y="3.8735" size="0.8128" layer="21" font="vector" rot="SR0">GND</text>
 <text x="53.49875" y="84.8995" size="0.8128" layer="21" font="vector" rot="SR0">GND</text>
-<text x="12.954" y="57.912" size="1.27" layer="21" font="vector">VCC</text>
-<text x="12.954" y="60.198" size="1.27" layer="21" font="vector">POWER</text>
-<text x="12.954" y="62.484" size="1.27" layer="21" font="vector">NFAULT</text>
-<text x="12.954" y="55.626" size="1.27" layer="21" font="vector">NOCTW</text>
+<text x="12.954" y="62.484" size="1.27" layer="21" font="vector">VCC</text>
+<text x="12.954" y="55.626" size="1.27" layer="21" font="vector">POWER</text>
+<text x="12.954" y="60.198" size="1.27" layer="21" font="vector">NFAULT</text>
+<text x="12.954" y="57.912" size="1.27" layer="21" font="vector">NOCTW</text>
 <text x="36.576" y="57.912" size="1.778" layer="21" font="vector">PVDD</text>
 <text x="66.294" y="62.23" size="1.27" layer="21" font="vector">SH_A</text>
 <text x="72.644" y="33.782" size="1.27" layer="21" font="vector">SH_B</text>
