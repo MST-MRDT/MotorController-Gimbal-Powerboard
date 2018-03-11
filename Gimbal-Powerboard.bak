@@ -2820,4 +2820,12 @@ Wire Wire Line
 	16800 4450 16650 4450
 Wire Wire Line
 	17350 4350 17350 4400
+Text GLabel 15550 3400 0    49   Input ~ 0
+UART_TX
+Wire Wire Line
+	15550 3400 15750 3400
+Text GLabel 15550 3300 0    49   Input ~ 0
+UART_RX
+Wire Wire Line
+	15550 3300 15750 3300
 $EndSCHEMATC

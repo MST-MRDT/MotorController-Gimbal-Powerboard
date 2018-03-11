@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Gimbal-Powerboard-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -32,16 +31,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:MRDT-Actives
-LIBS:MRDT-Connectors
-LIBS:MRDT-Devices
-LIBS:MRDT-Drill_Holes
-LIBS:MRDT-Headers
-LIBS:MRDT-ICs
-LIBS:MRDT-Passives
-LIBS:MRDT-Shields
-LIBS:MRDT-Silkscreens
-LIBS:MRDT-Switches
 LIBS:Gimbal-Powerboard-cache
 EELAYER 25 0
 EELAYER END
@@ -235,17 +224,6 @@ U 1 1 5A7F8CEC
 P 5250 5050
 F 0 "C6" H 5275 5150 50  0000 L CNN
 F 1 "6800p" H 5275 4950 50  0000 L CNN
-F 2 "" H 5288 4900 50  0001 C CNN
-F 3 "" H 5250 5050 50  0001 C CNN
-	1    5250 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C7
-U 1 1 5A7F8D38
-P 5250 5050
-F 0 "C7" H 5275 5150 50  0000 L CNN
-F 1 "C" H 5275 4950 50  0000 L CNN
 F 2 "" H 5288 4900 50  0001 C CNN
 F 3 "" H 5250 5050 50  0001 C CNN
 	1    5250 5050
