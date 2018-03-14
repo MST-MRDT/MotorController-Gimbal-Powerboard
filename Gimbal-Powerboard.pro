@@ -1,4 +1,4 @@
-update=Mon 31 Jul 2017 10:04:56 AM MDT
+update=3/13/2018 9:30:21 PM
 version=1
 last_client=kicad
 [general]
@@ -63,3 +63,13 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
+LibName33=C:/Users/Shaun/Documents/GitHub/KiCad-Libraries-Hardware/Device/MRDT-Actives
+LibName34=C:/Users/Shaun/Documents/GitHub/KiCad-Libraries-Hardware/Device/MRDT-Connectors
+LibName35=C:/Users/Shaun/Documents/GitHub/KiCad-Libraries-Hardware/Device/MRDT-Devices
+LibName36=C:/Users/Shaun/Documents/GitHub/KiCad-Libraries-Hardware/Device/MRDT-Drill_Holes
+LibName37=C:/Users/Shaun/Documents/GitHub/KiCad-Libraries-Hardware/Device/MRDT-Headers
+LibName38=C:/Users/Shaun/Documents/GitHub/KiCad-Libraries-Hardware/Device/MRDT-ICs
+LibName39=C:/Users/Shaun/Documents/GitHub/KiCad-Libraries-Hardware/Device/MRDT-Passives
+LibName40=C:/Users/Shaun/Documents/GitHub/KiCad-Libraries-Hardware/Device/MRDT-Shields
+LibName41=C:/Users/Shaun/Documents/GitHub/KiCad-Libraries-Hardware/Device/MRDT-Silkscreens
+LibName42=C:/Users/Shaun/Documents/GitHub/KiCad-Libraries-Hardware/Device/MRDT-Switches
