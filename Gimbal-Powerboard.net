@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Shaun/Documents/GitHub/MotorController-Gimbal-Powerboard/Gimbal-Powerboard.sch)
-    (date "3/14/2018 5:46:18 PM")
+    (date "3/14/2018 6:28:04 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -611,7 +611,7 @@
       (tstamp 5A85A436))
     (comp (ref U4)
       (value MAX3232)
-      (footprint MRDT_ICs:SOIC-16_3.9x9.9mm_Pitch1.27mm)
+      (footprint MRDT-ICs:SOIC-16_3.9x9.9mm_Pitch1.27mm)
       (libsource (lib interface) (part MAX3232))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A860A07))
@@ -707,7 +707,7 @@
       (tstamp 5A9C6A0A))
     (comp (ref U3)
       (value LAUNCHXL-F28069M_Launchpad_J1)
-      (footprint MRDT_Shields:LAUNCHXL-F28069M_Launchpad_J1)
+      (footprint MRDT-Shields:LAUNCHXL-F28069M_Launchpad_J1)
       (libsource (lib MRDT-Shields) (part LAUNCHXL-F28069M_Launchpad_J1))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AA590A4)))
