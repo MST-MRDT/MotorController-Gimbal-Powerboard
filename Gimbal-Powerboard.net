@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Shaun/Documents/GitHub/MotorController-Gimbal-Powerboard/Gimbal-Powerboard.sch)
-    (date "4/1/2018 4:47:19 PM")
+    (date "4/1/2018 5:31:23 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
