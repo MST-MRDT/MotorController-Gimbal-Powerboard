@@ -2612,8 +2612,6 @@ Wire Wire Line
 Wire Wire Line
 	7550 7750 7900 7750
 Wire Wire Line
-	7000 8500 7000 8600
-Wire Wire Line
 	7550 8250 8150 8250
 Wire Wire Line
 	7700 8250 7700 8300
@@ -2927,4 +2925,6 @@ NoConn ~ 7550 7850
 NoConn ~ 7550 7950
 NoConn ~ 7550 8050
 NoConn ~ 7550 8150
+Wire Wire Line
+	7000 8600 7000 8550
 $EndSCHEMATC
