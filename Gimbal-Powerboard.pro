@@ -1,4 +1,4 @@
-update=4/1/2018 3:04:55 PM
+update=4/8/2018 3:22:13 PM
 version=1
 last_client=kicad
 [general]
@@ -73,3 +73,4 @@ LibName39=C:/Users/Shaun/Documents/GitHub/KiCad-Libraries-Hardware/Device/MRDT_P
 LibName40=C:/Users/Shaun/Documents/GitHub/KiCad-Libraries-Hardware/Device/MRDT_Shields
 LibName41=C:/Users/Shaun/Documents/GitHub/KiCad-Libraries-Hardware/Device/MRDT_Silkscreens
 LibName42=C:/Users/Shaun/Documents/GitHub/KiCad-Libraries-Hardware/Device/MRDT_Switches
+LibName43=New Parts/Devices/MURS320
