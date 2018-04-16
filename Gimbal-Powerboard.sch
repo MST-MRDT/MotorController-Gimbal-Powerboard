@@ -48,10 +48,10 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Gimbal VFD Board"
 Date ""
-Rev ""
-Comp ""
+Rev "2"
+Comp "Mars Rover Design Team"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -145,7 +145,7 @@ F 3 "" H 6100 3700 50  0001 C CNN
 	1    6100 3700
 	1    0    0    -1  
 $EndComp
-Text GLabel 6550 3550 2    60   Input ~ 0
+Text GLabel 6550 3550 2    60   Output ~ 0
 12VACTSENSE
 Text GLabel 3300 2750 1    60   Input ~ 0
 12VACT
@@ -286,9 +286,9 @@ F 3 "" H 4050 5500 50  0001 C CNN
 $EndComp
 Text GLabel 3800 5850 0    49   Input ~ 0
 PWRGD
-Text GLabel 3800 5950 0    49   Input ~ 0
+Text GLabel 3800 5950 0    49   Output ~ 0
 NOCTW
-Text GLabel 3800 6050 0    49   Input ~ 0
+Text GLabel 3800 6050 0    49   Output ~ 0
 NFAULT
 $Comp
 L TEST TP2
@@ -528,13 +528,13 @@ F 3 "" H 8050 6400 50  0001 C CNN
 	1    8050 6400
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7700 6450 2    39   Input ~ 0
+Text GLabel 7700 6450 2    39   Output ~ 0
 GH_A
-Text GLabel 8350 6550 2    39   Input ~ 0
+Text GLabel 8350 6550 2    39   Output ~ 0
 SH_A
-Text GLabel 7800 6650 2    39   Input ~ 0
+Text GLabel 7800 6650 2    39   Output ~ 0
 GL_A
-Text GLabel 7800 6750 2    39   Input ~ 0
+Text GLabel 7800 6750 2    39   Output ~ 0
 SL_A
 $Comp
 L C C20
@@ -547,13 +547,13 @@ F 3 "" H 8150 6850 50  0001 C CNN
 	1    8150 6850
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7800 6950 2    39   Input ~ 0
+Text GLabel 7800 6950 2    39   Output ~ 0
 GH_B
-Text GLabel 8400 7050 2    39   Input ~ 0
+Text GLabel 8400 7050 2    39   Output ~ 0
 SH_B
-Text GLabel 7750 7150 2    39   Input ~ 0
+Text GLabel 7750 7150 2    39   Output ~ 0
 GL_B
-Text GLabel 7750 7250 2    39   Input ~ 0
+Text GLabel 7750 7250 2    39   Output ~ 0
 SL_B
 $Comp
 L C C21
@@ -566,11 +566,11 @@ F 3 "" H 8150 7350 50  0001 C CNN
 	1    8150 7350
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7750 7450 2    39   Input ~ 0
+Text GLabel 7750 7450 2    39   Output ~ 0
 GH_C
-Text GLabel 8400 7550 2    39   Input ~ 0
+Text GLabel 8400 7550 2    39   Output ~ 0
 SH_C
-Text GLabel 7750 7650 2    39   Input ~ 0
+Text GLabel 7750 7650 2    39   Output ~ 0
 GL_C
 Text GLabel 8150 8250 2    39   Input ~ 0
 GL_C
@@ -647,15 +647,15 @@ $EndComp
 $Comp
 L C C30
 U 1 1 5A800D77
-P 13250 2500
-F 0 "C30" H 13275 2600 50  0000 L CNN
-F 1 "2.2u" H 13275 2400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 13288 2350 50  0001 C CNN
-F 3 "" H 13250 2500 50  0001 C CNN
-	1    13250 2500
+P 13350 2300
+F 0 "C30" H 13375 2400 50  0000 L CNN
+F 1 "2.2u" H 13375 2200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 13388 2150 50  0001 C CNN
+F 3 "" H 13350 2300 50  0001 C CNN
+	1    13350 2300
 	-1   0    0    1   
 $EndComp
-Text GLabel 13250 2350 1    49   Input ~ 0
+Text GLabel 13400 2100 2    49   Input ~ 0
 12VACT
 Text GLabel 11300 3250 0    49   Input ~ 0
 SH_A
@@ -703,7 +703,7 @@ F 3 "" H 13800 4250 50  0001 C CNN
 	1    13800 4250
 	1    0    0    -1  
 $EndComp
-Text GLabel 14150 4000 2    49   Input ~ 0
+Text GLabel 14150 4000 2    49   Output ~ 0
 ASENSE
 $Comp
 L TEST TP4
@@ -793,15 +793,15 @@ $EndComp
 $Comp
 L C C31
 U 1 1 5A819376
-P 12900 5600
-F 0 "C31" H 12925 5700 50  0000 L CNN
-F 1 "2.2u" H 12925 5500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 12938 5450 50  0001 C CNN
-F 3 "" H 12900 5600 50  0001 C CNN
-	1    12900 5600
+P 13350 5500
+F 0 "C31" H 13375 5600 50  0000 L CNN
+F 1 "2.2u" H 13375 5400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 13388 5350 50  0001 C CNN
+F 3 "" H 13350 5500 50  0001 C CNN
+	1    13350 5500
 	1    0    0    -1  
 $EndComp
-Text GLabel 12900 5450 1    49   Input ~ 0
+Text GLabel 13400 5300 2    49   Input ~ 0
 12VACT
 Text GLabel 11300 6450 0    49   Input ~ 0
 SH_B
@@ -849,7 +849,7 @@ F 3 "" H 13800 7450 50  0001 C CNN
 	1    13800 7450
 	1    0    0    -1  
 $EndComp
-Text GLabel 14150 7200 2    49   Input ~ 0
+Text GLabel 14150 7200 2    49   Output ~ 0
 BSENSE
 $Comp
 L TEST TP5
@@ -995,7 +995,7 @@ F 3 "" H 13700 10650 50  0001 C CNN
 	1    13700 10650
 	1    0    0    -1  
 $EndComp
-Text GLabel 14050 10400 2    49   Input ~ 0
+Text GLabel 14050 10400 2    49   Output ~ 0
 CSENSE
 $Comp
 L TEST TP3
@@ -1169,11 +1169,11 @@ F 3 "" H 16600 10150 50  0001 C CNN
 $EndComp
 Text GLabel 16500 10500 0    49   Input ~ 0
 UART_TX
-Text GLabel 16500 10350 0    49   Input ~ 0
+Text GLabel 16500 10350 0    49   Output ~ 0
 UART_RX
 Text GLabel 18650 10600 2    49   Input ~ 0
 232_RX
-Text GLabel 18650 10700 2    49   Input ~ 0
+Text GLabel 18650 10700 2    49   Output ~ 0
 232_TX
 $Comp
 L C C42
@@ -1214,7 +1214,7 @@ F 3 "" H 16150 5950 60  0001 C CNN
 $EndComp
 Text GLabel 15650 5500 0    49   Input ~ 0
 232_TX
-Text GLabel 15650 5600 0    49   Input ~ 0
+Text GLabel 15650 5600 0    49   Output ~ 0
 232_RX
 Text GLabel 18000 4600 0    49   Input ~ 0
 12VACT
@@ -1227,12 +1227,12 @@ MTC
 $Comp
 L TEST TP12
 U 1 1 5A8ADE82
-P 19600 5300
-F 0 "TP12" H 19600 5600 50  0000 C BNN
-F 1 "TEST" H 19600 5550 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 19600 5300 50  0001 C CNN
-F 3 "" H 19600 5300 50  0001 C CNN
-	1    19600 5300
+P 19550 5300
+F 0 "TP12" H 19550 5600 50  0000 C BNN
+F 1 "TEST" H 19550 5550 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 19550 5300 50  0001 C CNN
+F 3 "" H 19550 5300 50  0001 C CNN
+	1    19550 5300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1249,23 +1249,23 @@ $EndComp
 $Comp
 L TEST TP14
 U 1 1 5A8AE19F
-P 19900 5300
-F 0 "TP14" H 19900 5600 50  0000 C BNN
-F 1 "TEST" H 19900 5550 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 19900 5300 50  0001 C CNN
-F 3 "" H 19900 5300 50  0001 C CNN
-	1    19900 5300
+P 19950 5300
+F 0 "TP14" H 19950 5600 50  0000 C BNN
+F 1 "TEST" H 19950 5550 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 19950 5300 50  0001 C CNN
+F 3 "" H 19950 5300 50  0001 C CNN
+	1    19950 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST TP15
 U 1 1 5A8AE307
-P 20050 5300
-F 0 "TP15" H 20050 5600 50  0000 C BNN
-F 1 "TEST" H 20050 5550 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 20050 5300 50  0001 C CNN
-F 3 "" H 20050 5300 50  0001 C CNN
-	1    20050 5300
+P 20150 5300
+F 0 "TP15" H 20150 5600 50  0000 C BNN
+F 1 "TEST" H 20150 5550 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 20150 5300 50  0001 C CNN
+F 3 "" H 20150 5300 50  0001 C CNN
+	1    20150 5300
 	1    0    0    -1  
 $EndComp
 Text Notes 15050 8600 0    197  ~ 0
@@ -1292,19 +1292,19 @@ F 3 "" H 16300 5200 60  0001 C CNN
 	1    16300 3950
 	1    0    0    -1  
 $EndComp
-Text GLabel 17150 3800 2    49   Input ~ 0
+Text GLabel 17150 3800 2    49   Output ~ 0
 DC_CAL
-Text GLabel 17150 3700 2    49   Input ~ 0
+Text GLabel 17150 3700 2    49   Output ~ 0
 EN_GATE
 Text GLabel 18400 3800 0    49   Input ~ 0
 NFAULT
 Text GLabel 18400 3900 0    49   Input ~ 0
 NOCTW
-Text GLabel 15950 3300 0    49   Input ~ 0
+Text GLabel 15950 3300 0    49   Output ~ 0
 INL_B
-Text GLabel 15950 3400 0    49   Input ~ 0
+Text GLabel 15950 3400 0    49   Output ~ 0
 INH_C
-Text GLabel 15950 3500 0    49   Input ~ 0
+Text GLabel 15950 3500 0    49   BiDi ~ 0
 INL_C/PWM_IN_1
 Text GLabel 15950 3600 0    49   Input ~ 0
 DE
@@ -1312,9 +1312,9 @@ Text GLabel 19600 3600 2    49   Input ~ 0
 CURRENTSENSEA
 Text GLabel 19600 3700 2    49   Input ~ 0
 CURRENTSENSEB
-Text GLabel 15950 3100 0    49   Input ~ 0
+Text GLabel 15950 3100 0    49   Output ~ 0
 INL_A
-Text GLabel 15950 3000 0    49   Input ~ 0
+Text GLabel 15950 3000 0    49   Output ~ 0
 INH_A
 Text GLabel 19600 3500 2    49   Input ~ 0
 CSENSE
@@ -1324,17 +1324,17 @@ Text GLabel 19600 3300 2    49   Input ~ 0
 ASENSE
 Text GLabel 19600 3200 2    49   Input ~ 0
 12VACTSENSE
-Text GLabel 17150 3500 2    49   Input ~ 0
+Text GLabel 17150 3500 2    49   Output ~ 0
 SDI
-Text GLabel 17150 3600 2    49   Input ~ 0
+Text GLabel 17150 3600 2    49   Output ~ 0
 SDO
-Text GLabel 18400 3600 0    49   Input ~ 0
+Text GLabel 18400 3600 0    49   Output ~ 0
 SCLK
-Text GLabel 15950 3200 0    49   Input ~ 0
+Text GLabel 15950 3200 0    49   Output ~ 0
 INH_B
-Text GLabel 17150 3100 2    49   Input ~ 0
+Text GLabel 17150 3100 2    49   Output ~ 0
 NSCS
-Text GLabel 18350 3300 0    49   Input ~ 0
+Text GLabel 18350 3300 0    49   Output ~ 0
 UART_TX
 Text GLabel 18350 3200 0    49   Input ~ 0
 UART_RX
@@ -1373,7 +1373,7 @@ F 3 "" H 14650 6450 50  0001 C CNN
 	1    14650 6450
 	1    0    0    -1  
 $EndComp
-Text GLabel 14900 6200 1    49   Input ~ 0
+Text GLabel 14900 6200 1    49   Output ~ 0
 CURRENTSENSEB
 $Comp
 L R R13
@@ -1456,7 +1456,7 @@ F 3 "" H 14600 3250 50  0001 C CNN
 	1    14600 3250
 	1    0    0    -1  
 $EndComp
-Text GLabel 14850 3000 1    49   Input ~ 0
+Text GLabel 14850 3000 1    49   Output ~ 0
 CURRENTSENSEA
 $Comp
 L R R37
@@ -1469,11 +1469,11 @@ F 3 "" H 14350 3150 50  0001 C CNN
 	1    14350 3150
 	0    -1   -1   0   
 $EndComp
-Text GLabel 13650 3500 2    60   Input ~ 0
+Text GLabel 13650 3500 2    60   Output ~ 0
 MTA
-Text GLabel 13600 6700 2    60   Input ~ 0
+Text GLabel 13600 6700 2    60   Output ~ 0
 MTB
-Text GLabel 13600 9800 2    60   Input ~ 0
+Text GLabel 13500 9650 2    60   Output ~ 0
 MTC
 $Comp
 L D D15
@@ -1678,14 +1678,162 @@ Text GLabel 7750 6250 2    49   Input ~ 0
 VCC
 Text GLabel 6650 11050 3    49   UnSpc ~ 0
 GND
+Text GLabel 12800 11050 3    49   UnSpc ~ 0
+GND
+Text GLabel 13300 9050 3    49   UnSpc ~ 0
+GND
+Text GLabel 12850 7850 3    49   UnSpc ~ 0
+GND
+Text GLabel 14450 6750 3    49   UnSpc ~ 0
+GND
+Text GLabel 14300 6100 1    49   Input ~ 0
+VCC
+Text GLabel 14250 2900 1    49   Input ~ 0
+VCC
+Text GLabel 12850 4600 3    49   UnSpc ~ 0
+GND
+Text GLabel 14400 3550 3    49   UnSpc ~ 0
+GND
+Text GLabel 13750 2550 3    49   UnSpc ~ 0
+GND
+Text GLabel 18400 2900 1    49   Input ~ 0
+VCC
+Text GLabel 19600 3100 2    49   UnSpc ~ 0
+GND
+Text GLabel 17150 3000 2    49   UnSpc ~ 0
+GND
+Text GLabel 15650 4800 0    49   UnSpc ~ 0
+GND
+Text GLabel 15650 5700 0    49   UnSpc ~ 0
+GND
+Text GLabel 15650 4700 0    49   Input ~ 0
+VCC
+Text GLabel 19550 5400 3    49   UnSpc ~ 0
+GND
+Text GLabel 19750 5400 3    49   UnSpc ~ 0
+GND
+Text GLabel 19950 5400 3    49   UnSpc ~ 0
+GND
+Text GLabel 20150 5400 3    49   UnSpc ~ 0
+GND
+Text GLabel 18000 4850 0    49   UnSpc ~ 0
+GND
+Text GLabel 17500 9500 3    49   UnSpc ~ 0
+GND
+Text GLabel 18100 9950 2    49   UnSpc ~ 0
+GND
+Text GLabel 19050 10150 2    49   UnSpc ~ 0
+GND
+$Comp
+L Anderson_1 C28
+U 1 1 5ACB7547
+P 18450 5500
+F 0 "C28" H 18500 5450 60  0000 C CNN
+F 1 "Anderson_1" H 18550 5750 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_1_Horisontal" H 18500 4950 60  0001 C CNN
+F 3 "" H 18500 4950 60  0001 C CNN
+	1    18450 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_1 C38
+U 1 1 5ACB76F1
+P 18450 5750
+F 0 "C38" H 18500 5700 60  0000 C CNN
+F 1 "Anderson_1" H 18550 6000 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_1_Horisontal" H 18500 5200 60  0001 C CNN
+F 3 "" H 18500 5200 60  0001 C CNN
+	1    18450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Anderson_1 C39
+U 1 1 5ACB787F
+P 18450 6000
+F 0 "C39" H 18500 5950 60  0000 C CNN
+F 1 "Anderson_1" H 18550 6250 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_1_Horisontal" H 18500 5450 60  0001 C CNN
+F 3 "" H 18500 5450 60  0001 C CNN
+	1    18450 6000
+	1    0    0    -1  
+$EndComp
+Text GLabel 16950 6900 0    49   Input ~ 0
+PWM_IN
+Text GLabel 17150 3200 2    49   BiDi ~ 0
+INL_C/PWM_IN_2
+Text GLabel 16950 7150 0    49   Input ~ 0
+INL_C
+Text GLabel 18050 7200 2    49   Input ~ 0
+INL_C/PWM_IN_2
+Text GLabel 18050 6950 2    49   Input ~ 0
+INL_C/PWM_IN_1
+$Comp
+L 2P2T_Switch U27
+U 1 1 5ACD6F1C
+P 17150 7250
+F 0 "U27" H 17200 7200 60  0000 C CNN
+F 1 "2P2T_Switch" H 17400 7750 60  0000 C CNN
+F 2 "MRDT_Switches:2P2T_Switch_GrayHill_Series76" H 16950 7200 60  0001 C CNN
+F 3 "" H 16950 7200 60  0001 C CNN
+	1    17150 7250
+	1    0    0    -1  
+$EndComp
+Text Notes 16550 7200 1    60   ~ 0
+J5-->\nJ1<--
+Text Notes 17300 3450 0    60   ~ 0
+J1-INL_C\nJ5-PWM
+Text Notes 15350 3750 0    60   ~ 0
+J1-PWM\nJ5-INL_C\n
+Text Notes 16400 6850 0    60   ~ 0
+C1
+Text Notes 16400 7300 0    60   ~ 0
+C2
+Text Notes 16400 7500 0    60   ~ 0
+(Arrow is the direction of Depression)
+Text Notes 18800 7100 0    60   ~ 0
+*PWM is in C1\n INL_C is in C2
+$Comp
+L Anderson_2 C37
+U 1 1 5A9C53BB
+P 18450 4950
+F 0 "C37" H 18500 4900 60  0000 C CNN
+F 1 "Anderson-2" H 18550 5450 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 18500 4400 60  0001 C CNN
+F 3 "" H 18500 4400 60  0001 C CNN
+	1    18450 4950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 16100 3900
+$Comp
+L TEST TP10
+U 1 1 5A804188
+P 12900 3300
+F 0 "TP10" H 12900 3600 50  0000 C BNN
+F 1 "TEST" H 12900 3550 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 12900 3300 50  0001 C CNN
+F 3 "" H 12900 3300 50  0001 C CNN
+	1    12900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP11
+U 1 1 5A81938A
+P 12950 6500
+F 0 "TP11" H 12950 6800 50  0000 C BNN
+F 1 "TEST" H 12950 6750 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 12950 6500 50  0001 C CNN
+F 3 "" H 12950 6500 50  0001 C CNN
+	1    12950 6500
+	1    0    0    -1  
+$EndComp
+Text GLabel 13750 5750 3    49   UnSpc ~ 0
+GND
 Wire Wire Line
 	18650 10050 18950 10050
 Wire Wire Line
 	17950 10050 18350 10050
 Wire Wire Line
-	18950 10050 18950 10400
-Wire Wire Line
-	18650 10300 18950 10300
+	18950 10300 18650 10300
 Wire Wire Line
 	18100 10300 18350 10300
 Wire Wire Line
@@ -1738,19 +1886,16 @@ Wire Notes Line
 Wire Notes Line
 	10550 2000 10550 11400
 Wire Wire Line
-	12550 10550 12550 10300
+	12550 10300 12550 10900
 Wire Wire Line
 	11250 10100 11350 10100
 Wire Wire Line
 	11650 10100 12250 10100
-Connection ~ 13500 10900
-Wire Wire Line
-	13500 10900 13500 11000
 Connection ~ 13700 10400
 Wire Wire Line
 	13700 10900 13700 10800
 Wire Wire Line
-	13250 10900 13700 10900
+	12550 10900 13700 10900
 Wire Wire Line
 	13250 10800 13250 10900
 Connection ~ 13250 10400
@@ -1760,17 +1905,12 @@ Wire Wire Line
 	13700 10500 13700 10400
 Wire Wire Line
 	13250 10250 13250 10500
-Connection ~ 12550 9650
-Wire Wire Line
-	12700 9650 12700 9750
 Connection ~ 12500 9650
-Wire Wire Line
-	12550 9650 12550 9900
 Connection ~ 11900 9650
 Wire Wire Line
-	12500 9650 12500 9400
+	12500 9400 12500 9800
 Wire Wire Line
-	11250 9650 12700 9650
+	11250 9650 13500 9650
 Wire Wire Line
 	11900 9600 11900 9650
 Wire Wire Line
@@ -1785,19 +1925,16 @@ Wire Wire Line
 Wire Wire Line
 	11300 4150 12600 4150
 Wire Wire Line
-	12600 4150 12600 3900
+	12600 3900 12600 4500
 Wire Wire Line
 	11300 3700 11400 3700
 Wire Wire Line
 	11700 3700 12300 3700
-Connection ~ 13600 4500
-Wire Wire Line
-	13600 4500 13600 4600
 Connection ~ 13800 4000
 Wire Wire Line
 	13800 4500 13800 4400
 Wire Wire Line
-	13350 4500 13800 4500
+	12600 4500 13800 4500
 Wire Wire Line
 	13350 4400 13350 4500
 Connection ~ 13350 4000
@@ -1807,21 +1944,16 @@ Wire Wire Line
 	13800 4100 13800 4000
 Wire Wire Line
 	13350 3850 13350 4100
-Connection ~ 12600 3250
 Wire Wire Line
 	12750 3250 12750 3350
 Connection ~ 12550 3250
-Wire Wire Line
-	12600 3250 12600 3500
 Connection ~ 11950 3250
 Wire Wire Line
-	12550 3250 12550 3000
+	12550 3000 12550 3400
 Wire Wire Line
 	11300 3250 12750 3250
 Wire Wire Line
 	11950 3200 11950 3250
-Wire Wire Line
-	12550 2350 12550 2600
 Connection ~ 11950 2800
 Wire Wire Line
 	11800 2800 12250 2800
@@ -2117,14 +2249,11 @@ Wire Wire Line
 	12600 7350 12600 7100
 Wire Wire Line
 	11300 6900 11400 6900
-Connection ~ 13600 7700
-Wire Wire Line
-	13600 7700 13600 7800
 Connection ~ 13800 7200
 Wire Wire Line
 	13800 7700 13800 7600
 Wire Wire Line
-	13350 7700 13800 7700
+	12250 7700 13800 7700
 Wire Wire Line
 	13350 7600 13350 7700
 Connection ~ 13350 7200
@@ -2134,21 +2263,16 @@ Wire Wire Line
 	13800 7300 13800 7200
 Wire Wire Line
 	13350 7050 13350 7300
-Connection ~ 12600 6450
 Wire Wire Line
 	12750 6450 12750 6550
 Connection ~ 12550 6450
-Wire Wire Line
-	12600 6450 12600 6700
 Connection ~ 11950 6450
 Wire Wire Line
-	12550 6450 12550 6200
+	12550 6200 12550 6600
 Wire Wire Line
 	11300 6450 12750 6450
 Wire Wire Line
 	11950 6400 11950 6450
-Wire Wire Line
-	12550 5450 12550 5800
 Connection ~ 11950 6000
 Wire Wire Line
 	11950 5900 11950 6100
@@ -2163,25 +2287,21 @@ Wire Wire Line
 Wire Wire Line
 	15650 5600 15950 5600
 Wire Wire Line
-	17950 4850 17950 4900
-Wire Wire Line
 	18050 5400 18350 5400
 Wire Wire Line
 	18050 5650 18350 5650
 Wire Wire Line
 	18050 5900 18350 5900
 Wire Wire Line
-	19600 5300 19600 5400
+	19550 5300 19550 5400
 Wire Wire Line
 	19750 5300 19750 5400
 Wire Wire Line
-	19900 5300 19900 5400
+	19950 5300 19950 5400
 Wire Wire Line
-	20050 5300 20050 5400
+	20150 5300 20150 5400
 Wire Wire Line
 	18000 4600 18350 4600
-Wire Wire Line
-	17950 4850 18350 4850
 Wire Wire Line
 	17000 3800 17150 3800
 Wire Wire Line
@@ -2233,10 +2353,7 @@ Wire Wire Line
 Wire Wire Line
 	18350 3200 18550 3200
 Wire Wire Line
-	12250 7500 12250 7350
-Connection ~ 12250 4150
-Wire Wire Line
-	12250 4300 12250 4150
+	12250 7350 12250 7700
 Connection ~ 13100 6550
 Wire Wire Line
 	12750 6550 13100 6550
@@ -2248,18 +2365,11 @@ Wire Wire Line
 	13100 6250 13300 6250
 Connection ~ 13100 6250
 Wire Wire Line
-	13300 6350 13200 6350
-Wire Wire Line
-	13200 6350 13200 6550
-Wire Wire Line
 	13300 6450 13250 6450
 Wire Wire Line
-	13250 6450 13250 6550
-Wire Wire Line
-	13200 6550 13350 6550
+	13250 6350 13250 6550
 Wire Wire Line
 	13350 6550 13350 6750
-Connection ~ 13250 6550
 Wire Wire Line
 	14300 6100 14300 6150
 Connection ~ 14300 6150
@@ -2267,8 +2377,6 @@ Wire Wire Line
 	14200 6250 14900 6250
 Wire Wire Line
 	14650 6250 14650 6300
-Wire Wire Line
-	14400 5650 14600 5650
 Wire Wire Line
 	14600 5950 14600 6350
 Wire Wire Line
@@ -2284,14 +2392,12 @@ Wire Wire Line
 Wire Wire Line
 	14200 6450 14250 6450
 Wire Wire Line
-	14250 6450 14250 6500
+	14250 6450 14250 6700
 Wire Wire Line
 	12500 8700 13300 8700
 Wire Wire Line
 	13300 8700 13300 8650
 Connection ~ 13300 8700
-Wire Wire Line
-	12700 9750 13250 9750
 Wire Wire Line
 	7600 5650 7600 5850
 Wire Wire Line
@@ -2317,13 +2423,7 @@ Wire Wire Line
 	13050 3050 13250 3050
 Connection ~ 13050 3050
 Wire Wire Line
-	13250 3150 13150 3150
-Wire Wire Line
-	13150 3150 13150 3350
-Wire Wire Line
 	13250 3250 13200 3250
-Wire Wire Line
-	13200 3250 13200 3350
 Wire Wire Line
 	14250 2900 14250 2950
 Connection ~ 14250 2950
@@ -2332,7 +2432,7 @@ Wire Wire Line
 Wire Wire Line
 	14600 3050 14600 3100
 Wire Wire Line
-	14350 2450 14550 2450
+	12550 2450 14550 2450
 Wire Wire Line
 	14550 2750 14550 3150
 Wire Wire Line
@@ -2348,14 +2448,10 @@ Wire Wire Line
 Wire Wire Line
 	14150 3250 14200 3250
 Wire Wire Line
-	14200 3250 14200 3300
+	14200 3250 14200 3450
 Connection ~ 13050 3350
-Connection ~ 13150 3350
 Wire Wire Line
 	13350 3350 13350 3550
-Connection ~ 13200 3350
-Wire Wire Line
-	12550 5450 12900 5450
 Wire Wire Line
 	14600 3450 14600 3400
 Wire Notes Line
@@ -2363,20 +2459,13 @@ Wire Notes Line
 Wire Notes Line
 	15000 2000 15000 11400
 Wire Wire Line
-	13250 9750 13250 9950
-Wire Wire Line
 	12750 3350 13050 3350
-Wire Wire Line
-	13150 3350 13350 3350
 Wire Wire Line
 	13650 3500 13350 3500
 Connection ~ 13350 3500
 Wire Wire Line
 	13600 6700 13350 6700
 Connection ~ 13350 6700
-Wire Wire Line
-	13600 9800 13250 9800
-Connection ~ 13250 9800
 Wire Wire Line
 	11450 6000 11300 6000
 Wire Wire Line
@@ -2419,10 +2508,7 @@ Wire Wire Line
 	11800 10050 11800 10200
 Connection ~ 11800 10100
 Wire Wire Line
-	11800 10500 11800 10700
-Wire Wire Line
 	11800 10550 12550 10550
-Connection ~ 11800 10550
 Wire Wire Line
 	11650 10350 11650 10100
 Wire Wire Line
@@ -2548,129 +2634,10 @@ Wire Wire Line
 	6650 10850 8200 10850
 Connection ~ 6650 10850
 Connection ~ 7150 10850
-Text GLabel 11800 10700 3    49   UnSpc ~ 0
-GND
-Text GLabel 13500 11000 3    49   UnSpc ~ 0
-GND
-Text GLabel 13300 9050 3    49   UnSpc ~ 0
-GND
 Wire Wire Line
 	13300 9050 13300 9000
-Text GLabel 12250 7500 3    49   UnSpc ~ 0
-GND
-Text GLabel 13600 7800 3    49   UnSpc ~ 0
-GND
-Text GLabel 12900 5750 3    49   UnSpc ~ 0
-GND
-Text GLabel 14250 6500 3    49   UnSpc ~ 0
-GND
-Text GLabel 14650 6600 3    49   UnSpc ~ 0
-GND
-Text GLabel 14400 5650 0    49   UnSpc ~ 0
-GND
-Text GLabel 14300 6100 1    49   Input ~ 0
-VCC
-Text GLabel 14250 2900 1    49   Input ~ 0
-VCC
-Text GLabel 12250 4300 3    49   UnSpc ~ 0
-GND
-Text GLabel 13600 4600 3    49   UnSpc ~ 0
-GND
-Text GLabel 14200 3300 3    49   UnSpc ~ 0
-GND
-Text GLabel 14600 3450 3    49   UnSpc ~ 0
-GND
-Text GLabel 14350 2450 0    49   UnSpc ~ 0
-GND
-Text GLabel 13250 2650 3    49   UnSpc ~ 0
-GND
-Text GLabel 18400 2900 1    49   Input ~ 0
-VCC
-Text GLabel 19600 3100 2    49   UnSpc ~ 0
-GND
-Text GLabel 17150 3000 2    49   UnSpc ~ 0
-GND
-Text GLabel 15650 4800 0    49   UnSpc ~ 0
-GND
-Text GLabel 15650 5700 0    49   UnSpc ~ 0
-GND
-Text GLabel 15650 4700 0    49   Input ~ 0
-VCC
 Wire Wire Line
 	15650 5700 15950 5700
-Text GLabel 19600 5400 3    49   UnSpc ~ 0
-GND
-Text GLabel 19750 5400 3    49   UnSpc ~ 0
-GND
-Text GLabel 19900 5400 3    49   UnSpc ~ 0
-GND
-Text GLabel 20050 5400 3    49   UnSpc ~ 0
-GND
-Text GLabel 17950 4900 3    49   UnSpc ~ 0
-GND
-Text GLabel 17500 9500 3    49   UnSpc ~ 0
-GND
-Text GLabel 18100 9950 2    49   UnSpc ~ 0
-GND
-Text GLabel 19000 10400 2    49   UnSpc ~ 0
-GND
-Connection ~ 18950 10300
-Wire Wire Line
-	18950 10400 19000 10400
-$Comp
-L Anderson_1 C28
-U 1 1 5ACB7547
-P 18450 5500
-F 0 "C28" H 18500 5450 60  0000 C CNN
-F 1 "Anderson_1" H 18550 5750 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horisontal" H 18500 4950 60  0001 C CNN
-F 3 "" H 18500 4950 60  0001 C CNN
-	1    18450 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Anderson_1 C38
-U 1 1 5ACB76F1
-P 18450 5750
-F 0 "C38" H 18500 5700 60  0000 C CNN
-F 1 "Anderson_1" H 18550 6000 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horisontal" H 18500 5200 60  0001 C CNN
-F 3 "" H 18500 5200 60  0001 C CNN
-	1    18450 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Anderson_1 C39
-U 1 1 5ACB787F
-P 18450 6000
-F 0 "C39" H 18500 5950 60  0000 C CNN
-F 1 "Anderson_1" H 18550 6250 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horisontal" H 18500 5450 60  0001 C CNN
-F 3 "" H 18500 5450 60  0001 C CNN
-	1    18450 6000
-	1    0    0    -1  
-$EndComp
-Text GLabel 16950 6900 0    49   Input ~ 0
-PWM_IN
-Text GLabel 17150 3200 2    49   Input ~ 0
-INL_C/PWM_IN_2
-Text GLabel 16950 7150 0    49   Input ~ 0
-INL_C
-Text GLabel 18050 7200 2    49   Input ~ 0
-INL_C/PWM_IN_2
-Text GLabel 18050 6950 2    49   Input ~ 0
-INL_C/PWM_IN_1
-$Comp
-L 2P2T_Switch U27
-U 1 1 5ACD6F1C
-P 17150 7250
-F 0 "U27" H 17200 7200 60  0000 C CNN
-F 1 "2P2T_Switch" H 17400 7750 60  0000 C CNN
-F 2 "MRDT_Switches:2P2T_Switch_GrayHill_Series76" H 16950 7200 60  0001 C CNN
-F 3 "" H 16950 7200 60  0001 C CNN
-	1    17150 7250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	17800 7100 17800 6950
 Wire Wire Line
@@ -2682,20 +2649,6 @@ Wire Wire Line
 Wire Wire Line
 	17800 7200 18050 7200
 Connection ~ 17950 7200
-Text Notes 16550 7200 1    60   ~ 0
-J5-->\nJ1<--
-Text Notes 17300 3450 0    60   ~ 0
-J1-INL_C\nJ5-PWM
-Text Notes 15350 3750 0    60   ~ 0
-J1-PWM\nJ5-INL_C\n
-Text Notes 16400 6850 0    60   ~ 0
-C1
-Text Notes 16400 7300 0    60   ~ 0
-C2
-Text Notes 16400 7500 0    60   ~ 0
-(Arrow is the direction of Depression)
-Text Notes 18800 7100 0    60   ~ 0
-*PWM is in C1\n INL_C is in C2
 Wire Wire Line
 	17000 3200 17150 3200
 Wire Wire Line
@@ -2704,48 +2657,96 @@ Wire Notes Line
 	20600 2000 20600 11400
 Wire Notes Line
 	20600 8300 19650 8300
-$Comp
-L Anderson_2 C37
-U 1 1 5A9C53BB
-P 18450 4950
-F 0 "C37" H 18500 4900 60  0000 C CNN
-F 1 "Anderson-2" H 18550 5450 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 18500 4400 60  0001 C CNN
-F 3 "" H 18500 4400 60  0001 C CNN
-	1    18450 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12550 2350 13250 2350
 Wire Wire Line
 	19600 3100 19450 3100
-NoConn ~ 16100 3900
 Wire Wire Line
 	12900 3300 12900 3350
 Connection ~ 12900 3350
-$Comp
-L TEST TP10
-U 1 1 5A804188
-P 12900 3300
-F 0 "TP10" H 12900 3600 50  0000 C BNN
-F 1 "TEST" H 12900 3550 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 12900 3300 50  0001 C CNN
-F 3 "" H 12900 3300 50  0001 C CNN
-	1    12900 3300
-	1    0    0    -1  
-$EndComp
 Connection ~ 12950 6550
 Wire Wire Line
 	12950 6500 12950 6550
-$Comp
-L TEST TP11
-U 1 1 5A81938A
-P 12950 6500
-F 0 "TP11" H 12950 6800 50  0000 C BNN
-F 1 "TEST" H 12950 6750 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 12950 6500 50  0001 C CNN
-F 3 "" H 12950 6500 50  0001 C CNN
-	1    12950 6500
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	12850 4500 12850 4600
+Connection ~ 12600 4150
+Connection ~ 13350 4500
+Connection ~ 12850 4500
+Wire Wire Line
+	12550 3400 12600 3400
+Wire Wire Line
+	12600 3400 12600 3500
+Wire Wire Line
+	13200 3150 13250 3150
+Wire Wire Line
+	13200 3150 13200 3350
+Wire Wire Line
+	13200 3350 13350 3350
+Connection ~ 13200 3250
+Wire Wire Line
+	14200 3450 14600 3450
+Wire Wire Line
+	14400 3450 14400 3550
+Connection ~ 14400 3450
+Wire Wire Line
+	12550 2450 12550 2600
+Wire Wire Line
+	13750 2450 13750 2550
+Connection ~ 13350 2450
+Connection ~ 13750 2450
+Wire Wire Line
+	13350 2150 13350 2100
+Wire Wire Line
+	13350 2100 13400 2100
+Wire Wire Line
+	13300 6350 13250 6350
+Connection ~ 13250 6450
+Wire Wire Line
+	13250 6550 13350 6550
+Connection ~ 13350 7700
+Wire Wire Line
+	12850 7700 12850 7850
+Connection ~ 12850 7700
+Wire Wire Line
+	14250 6700 14650 6700
+Wire Wire Line
+	14450 6700 14450 6750
+Wire Wire Line
+	14650 6700 14650 6600
+Connection ~ 14450 6700
+Wire Wire Line
+	12550 5650 14600 5650
+Wire Wire Line
+	13750 5650 13750 5750
+Wire Wire Line
+	13400 5300 13350 5300
+Wire Wire Line
+	13350 5300 13350 5350
+Connection ~ 13750 5650
+Wire Wire Line
+	12550 5650 12550 5800
+Connection ~ 13350 5650
+Wire Wire Line
+	12550 6600 12600 6600
+Wire Wire Line
+	12600 6600 12600 6700
+Wire Wire Line
+	11800 10550 11800 10500
+Wire Wire Line
+	12800 10900 12800 11050
+Connection ~ 12550 10550
+Connection ~ 13250 10900
+Connection ~ 12800 10900
+Wire Wire Line
+	12500 9800 12550 9800
+Wire Wire Line
+	12550 9800 12550 9900
+Wire Wire Line
+	13250 9950 13250 9650
+Connection ~ 13250 9650
+Wire Wire Line
+	18950 10050 18950 10300
+Wire Wire Line
+	18950 10150 19050 10150
+Connection ~ 18950 10150
+Wire Wire Line
+	18000 4850 18350 4850
 $EndSCHEMATC
